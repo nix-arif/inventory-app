@@ -10,9 +10,7 @@ import {
 } from "lucide-react";
 import StatCard from "./StatCard";
 
-type Props = {};
-
-const StatCards = (props: Props) => {
+const StatCards = () => {
   return (
     <>
       <StatCard

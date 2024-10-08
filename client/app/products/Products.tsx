@@ -7,7 +7,7 @@ import {
   useGetProductsQuery,
 } from "@/redux/state/api";
 import { PlusCircleIcon, SearchIcon } from "lucide-react";
-import Image from "next/image";
+// import Image from "next/image";
 import { useState } from "react";
 import CreateProductModal from "./CreateProductModal";
 
