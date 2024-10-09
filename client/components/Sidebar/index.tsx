@@ -11,6 +11,7 @@ import {
   SlidersHorizontal,
   CircleDollarSign,
 } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
@@ -75,7 +76,13 @@ const Sidebar = () => {
           isSideBarCollapsed ? "px-5" : "px-8"
         }`}
       >
-        <div>logo</div>
+        <Image
+          src="https://s3-inventoryapp.s3.amazonaws.com/LogoNoWhite.png"
+          alt="Smart Innosys Sdn Bhd"
+          width={27}
+          height={27}
+          className="rounded w-8"
+        />
         <h1
           className={`${
             isSideBarCollapsed ? "hidden" : "block"
